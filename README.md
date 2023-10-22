@@ -17,7 +17,10 @@ Description: Brief description of the show.
 
 ## Data Cleaning in SQL
 
-Before visualizing the data in Tableau, you performed data cleaning in SQL to ensure data quality and consistency. This cleaning included tasks such as handling missing values, removing duplicates, and ensuring data accuracy.
+Before visualizing the data in Tableau, I performed data cleaning in SQL to ensure data quality and consistency. This cleaning included tasks
+- rearanging mixed values to the correct column.
+- empty the un correct values.
+- giving meaningful words to the null values for visulization purposes.
 
 ## Visualizations in Tableau
 
