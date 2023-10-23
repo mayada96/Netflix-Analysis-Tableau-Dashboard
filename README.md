@@ -1,19 +1,21 @@
+# Netflix Data Analysis
+
 ## Overview
 
 This dataset contains information about Netflix titles and includes the following columns:
 
-Show_id: Unique identifier for each show.
-Type: Type of show (Movie, TV Show).
-Title: Title of the show.
-Director: Director(s) of the show.
-Cast: Cast members.
-Country: Country where the show is available.
-Date_added: Date when the show was added to Netflix.
-Release_year: Year the show was released.
-Rating: Content rating.
-Duration: Duration of the show.
-Listed_in: Categories or genres the Show belongs to.
-Description: Brief description of the show.
+`Show_id`: Unique identifier for each show.
+`Type`: Type of show (Movie, TV Show).
+`Title`: Title of the show.
+`Director`: Director(s) of the show.
+`Cast`: Cast members.
+`Country`: Country where the show is available.
+`Date_added`: Date when the show was added to Netflix.
+`Release_year`: Year the show was released.
+`Rating`: Content rating.
+`Duration`: Duration of the show.
+`Listed_in`: Categories or genres the Show belongs to.
+`Description`: Brief description of the show.
 
 ## Data Cleaning in SQL
 
@@ -24,7 +26,7 @@ Before visualizing the data in Tableau, I performed data cleaning in SQL to ensu
 
 ## Visualizations in Tableau
 
-The dataset was visualized in Tableau to gain insights and make data-driven decisions. The following visualizations were created:
+The dataset was visualized in Tableau to gain insights and make data-driven decisions. I created the following visualizations:
 
 1/ Filter for Type and Title: This filter allows users to extract information about the show’s description, added year, rating, category, and release year based on the selected type and title.
 2/ Calendar with Number of Shows Added Each Day: This calendar visualization shows the number of shows added to Netflix each day. It helps track trends in content addition over time.
@@ -50,6 +52,7 @@ https://www.kaggle.com/datasets/mahmoudtaya/netflixtitles
 - `Cleansed Netflix Titles.cvs` - cleansed data ready for visualization.
 - ` Cleansed Netflix Titles Script.SQL` - containing the cleaning script for the dataset.
 - ` Netflix Analysis Dashboard.twbx` - Tableau dashboard.
+- `README.md` - This Document
 
 
 ## How to Use the Visualizations
